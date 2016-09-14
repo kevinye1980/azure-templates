@@ -95,7 +95,7 @@
     },
     "stdStorageName": {
       "type": "string",
-      "defaultValue": "testvnetstoragestd",
+      "defaultValue": "udrteststoragestd",
       "metadata": {
         "description": "Name for simple storage account."
       }
@@ -114,7 +114,7 @@
     },
     "prmStorageName": {
       "type": "string",
-      "defaultValue": "testvnetstorageprm",
+      "defaultValue": "udrteststorageprm",
       "metadata": {
         "description": "Name for simple storage account."
       }
@@ -203,7 +203,7 @@
     "frontEndSubnetRef": "[concat(variables('vnetID'),'/subnets/',parameters('frontEndSubnetName'))]",
     "backEndSubnetRef": "[concat(variables('vnetID'),'/subnets/',parameters('backEndSubnetName'))]",
     "dmzSubnetRef": "[concat(variables('vnetID'),'/subnets/',parameters('dmzSubnetName'))]",
-    "templateBaseUrl": "https://github.com/kevinye1980/azure-templates/blob/kevinye1980-patch-1/IaaS-NSG-UDR/"
+    "templateBaseUrl": "https://raw.githubusercontent.com/kevinye1980/azure-templates/kevinye1980-patch-1/IaaS-NSG-UDR/"
   },
   "resources": [
     {
